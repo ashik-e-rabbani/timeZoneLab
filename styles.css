@@ -1,6 +1,10 @@
 body {
     font-family: 'Quicksand', sans-serif; /* Use Quicksand font */
-    background-color: #f0f0f0;
+    background-color: #e5e5f7;
+opacity: 0.85;
+background-image:  radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+background-size: 20px 20px;
+background-position: 0 0,10px 10px;
     margin: 0;
     padding: 20px;
 }
@@ -26,10 +30,10 @@ textarea, pre {
 .container {
     max-width: 600px;
     margin: auto;
-    background: #fff;
+    background: #f7f7fcf6;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.549);
 }
 
 
